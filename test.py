@@ -10,7 +10,7 @@ def test_positive_sentiment():
     with client:
         # Define the request payload 
         # Initialize payload as a TextInput object
-        payload = TextInput(text="I love this product! It's amazing!")
+        payload = TextInput(text="I love this eating and sleeping")
 
         # Convert TextInput object to JSON-serializable dictionary
         payload_dict = jsonable_encoder(payload)
