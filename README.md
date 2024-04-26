@@ -39,12 +39,6 @@ The project relies on the following dependencies:
 
 ---
 
-## Models Used
-
-The API utilizes a pre-trained Hugging Face Transformer model for text classification. Specifically, it employs the `lxyuan/distilbert-base-multilingual-cased-sentiments-student` model, which is fine-tuned for sentiment analysis tasks across multiple languages.
-
----
-
 ## Code Explanation
 
 The main components of the code include:
