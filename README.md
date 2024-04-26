@@ -104,7 +104,7 @@ docker run -d -p 8000:8000 fastapi-test-sentiment-api-0.1.2:latest
 
 You can interact with the API using tools like cURL, Postman, or by sending HTTP requests programmatically. Alternatively, you can use the Swagger UI provided by FastAPI for easy testing and exploration.
 
-1. Open your web browser and navigate to `http://localhost:8000/docs`.
+1. Open your web browser and navigate to `http://localhost:8000/`.
 2. This will open the Swagger UI interface, where you can explore the API endpoints and submit requests with sample data.
 3. Click on the `/analyze/` endpoint, and then click on "Try it out" to input your text data.
 4. After entering the text data, click on "Execute" to send the request and view the response, which will include the sentiment/emotion analysis results.
